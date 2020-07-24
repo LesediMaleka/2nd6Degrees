@@ -1,3 +1,4 @@
+
 body, html {
     height: 100%;
     background-color:black;
@@ -175,12 +176,13 @@ outline: 1px solid rgb(7, 7, 7);
   .PortfolioDiv{
     padding-top: 60px;
     padding-bottom: 60px;
-}
-.PortfolioDiv{
-    text-align: center;
-    margin-bottom: 50px;
-}
 
+.mobile-Nav{
+  position: fixed;
+} 
+.navbar{
+  position: fixed;
+}
 
 
 .FooterText{
@@ -199,79 +201,15 @@ outline: 1px solid rgb(7, 7, 7);
   
 }
 
-.PortfolioDiv.PortfolioBlock .PortfolioImage{
-  overflow: hidden;
-  background: white;
-  margin-bottom: 0;
-  opacity:1;
-}
-.PortfolioDiv.PortfolioBlock .PortfolioImage{
-  transition: 0.8s ease;
-}
+ /* -Large devices (ipad pro) */
+ @media (min-width: 992px) { 
+>>
 
-.PortfolioDiv.PortfolioBlock .PortfolioImage{
-  position: relative;
-  display: inline-block;
-}
 
-.PortfolioDiv.PortfolioBlock .PortfolioImage .PortfolioDivText{
-  display: grid;
-  position: absolute;
-  left:0;
-  color: #000;
-  bottom:0;
-  padding: 10px;
-  font-size: 17px;
-  line-height: 18px;
-  width: 100%;
-  padding-top: 15px;
-  padding-bottom: 15px;
-  opacity:1;
-  transition: 0.8s ease;
-  text-align: center;
-  text-shadow: 1px 1px 1px rgba(0,0,0,0.2);
-  /* background: linear-gradient(to bottom, transparent, rgba(0,0,0,0.39)); */
-}
-
-.PortfolioDiv.PortfolioBlock .PortfolioImage .PortfolioDivText .PortfolioHeading{
-  font-size: 1.5em;
-  font-weight: 600;
-  margin-top: -25vh;
-}
-.PortfolioHead{
-  font-size:1.5em;
-  font-weight: 600;
-  margin-top: -30vh;
-  margin-right: 35vw;
-}
-.DescriptionPara{
-  font-size: 1.6em;
-  font-weight: 400;
-  
-}
-
-.PortfolioDiv.PortfolioBlock .PortfolioImage .PortfolioDivText{
-  margin-top: 10px;
-}
-
-}
-
-    
- 
- @media screen and (min-width: 1200px) {
-
-  /* landing page media icons */
-  .social{
-    transform: translate(750px,715px);
-}
-
-.show-on-mobile{
-  display: none;
+  .mobile-Nav{
+      transform: translateX(840px);
+    }
 }
 
 
-     
- 
-   }
-  
- @media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {}
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {}
