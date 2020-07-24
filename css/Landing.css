@@ -152,9 +152,7 @@ outline: 1px solid rgb(7, 7, 7);
     color: white;
   }
 
-  .ForIcons{
-    display: inline-block;
-  }
+  
 
   
 /* -Large devices (ipad pro) */ 
@@ -185,6 +183,21 @@ outline: 1px solid rgb(7, 7, 7);
 
 
 
+.FooterText{
+  text-align: center;
+  color: white;
+}
+
+.icons{
+  display: inline-block;
+  font-size: 1.5em;
+  border-radius: 50%;
+  height: 40px;
+  width: 40px;
+  text-align: center;
+  padding-top: 7px;
+  
+}
 
 .PortfolioDiv.PortfolioBlock .PortfolioImage{
   overflow: hidden;
