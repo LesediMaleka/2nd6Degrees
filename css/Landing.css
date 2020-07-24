@@ -201,7 +201,7 @@ outline: 1px solid rgb(7, 7, 7);
 
 .PortfolioDiv.PortfolioBlock .PortfolioImage{
   overflow: hidden;
-  background: white;
+  background-color: white;
   margin-bottom: 0;
   opacity:1;
 }
