@@ -152,7 +152,9 @@ outline: 1px solid rgb(7, 7, 7);
     color: white;
   }
 
-  
+  .ForIcons{
+    display: inline-block;
+  }
 
   
 /* -Large devices (ipad pro) */ 
@@ -181,7 +183,9 @@ outline: 1px solid rgb(7, 7, 7);
     margin-bottom: 50px;
 }
 
-
+.image{
+  height: 60%;
+}
 
 .FooterText{
   text-align: center;
@@ -191,17 +195,18 @@ outline: 1px solid rgb(7, 7, 7);
 .icons{
   display: inline-block;
   font-size: 1.5em;
+  border: 1.5px solid white;
   border-radius: 50%;
   height: 40px;
   width: 40px;
   text-align: center;
-  padding-top: 7px;
-  
+  padding-top: 2px;
 }
+
 
 .PortfolioDiv.PortfolioBlock .PortfolioImage{
   overflow: hidden;
-  background-color: white;
+  background: white;
   margin-bottom: 0;
   opacity:1;
 }
