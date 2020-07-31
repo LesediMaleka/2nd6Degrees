@@ -55,14 +55,10 @@ p{
 h4{
     font-size: 18px;
 }
-
-
 /* Logo Div */
 .MediaDiv{
         z-index: 20;
     }
-
-
 /* Navbar for mobile*/
 .overlay{
     height: 100%;
@@ -142,8 +138,6 @@ h4{
 .mobile-Nav{
     display: block;
     color: black;
-        z-index: 2;
-        position: fixed;
 }
 
 
@@ -266,8 +260,6 @@ h4{
 .block{
     margin-top: 6vh !important;
 }
-
-
 /* Portfolio Page */
 
 /*Hover on test on Imagetest STYLING--*/
@@ -278,10 +270,6 @@ h4{
     text-align: center;
     margin-bottom: 50px;
 }
-
-
-
-
 .PortfolioDiv.PortfolioBlock .PortfolioImage{
     overflow: hidden;
     background: white;
@@ -524,8 +512,6 @@ font-size: 2em;
     .Desktop{
         display: block;
         color: black;
-            z-index: 2;
-            position: fixed;
         }  
     .DesktopOnly{
         display: block;  
@@ -537,6 +523,9 @@ font-size: 2em;
     .navbar-nav{
         transform: translateX(600px);
       }
+      .SecondNav{
+        transform: translate(480px,-50px);
+      }
 /* Landing page */
 
 
@@ -545,8 +534,6 @@ font-size: 2em;
        
     margin-top: -23vh;
 }
-
-
   /* Contact Page :Lesedi */
 .FormButton{
     width: 15vw;
@@ -567,7 +554,10 @@ font-size: 2em;
   display: none;
 }
 .block{
-    margin-top: 2vh !important;
+    margin-top: 5vh !important;
+}
+.blockDiv{
+    margin-top: -5vh !important;
 }
 /* .ClientDiv{
     margin-top: 20vh !important;
@@ -583,10 +573,7 @@ font-size: 2em;
     /* width: 90%;
     height: 76vh; */
     /* margin-bottom: 80vh; */
-
 }
-
-
 .div{
 margin-top: 5%;
 width: 90%;
