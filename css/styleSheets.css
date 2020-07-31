@@ -524,7 +524,12 @@ font-size: 2em;
         transform: translateX(600px);
       }
       .SecondNav{
-        transform: translate(480px,-50px);
+        transform: translate(545px,-50px);
+        text-transform: lowercase;
+        font-weight: 700;
+        font-size: 0.8em;
+        opacity: 0.6;
+        color: #000;
       }
 /* Landing page */
 
