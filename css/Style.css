@@ -1,6 +1,9 @@
 .mobile-Nav{
-  position: fixed;
-} 
+  display: block;
+  color: black;
+      z-index: 2;
+      position: fixed;
+}
 .navbar{
   position: fixed;
 }
@@ -9,6 +12,12 @@
  /* -Large devices (ipad pro) */
  @media (min-width: 992px) { 
 
+  .Desktop{
+    display: block;
+    color: black;
+        z-index: 2;
+        position: fixed;
+    } 
 
   .mobile-Nav{
       transform: translateX(840px);
