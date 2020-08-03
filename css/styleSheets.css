@@ -189,28 +189,28 @@ h4{
   }
   
   .im5{
-    background-image:url(../assets/Images/ResidentialTwo.jpg);
+    background-image:url(../assets/Images6degreesDocuments/Residential/HouseMashilane/E.jpg);
   }
   
   .im6{
-    background-image:url(../assets/Images/ResidentialFive.jpg);
+    background-image:url(../assets/Images6degreesDocuments/Residential/HouseMcdonald/A.jpg);
   }
   
   .im7{
-    background-image:url(../assets/Images/ResidentialFour.jpg);
+    background-image:url(../assets/Images6degreesDocuments/Residential/HouseChettiar/HouseChettiar.png);
   }
   
-  .im8{
-    background-image:url(../assets/Images/HealthCareFour.jpg);
+  .im10{
+    background-image:url(../assets/Images6degreesDocuments/Research/DESbAKERfINALlAYOUT25.04.17.jpg);
   }
   
   
   .im9{
-    background-image:url(../assets/Images/HealthCareThree.jpg);
+    background-image:url(../assets/Images6degreesDocuments/Research/AshesAtTheEndOfTheFireMonumentsOfFragmentedTruths/D.jpg);
   }
   
-  .Im1{
-    background-image:url(../assets/Images/HealthCareTwo.jpg);
+  .Im8{
+    background-image:url(../assets/Images6degreesDocuments/Research/SecuringFreedomsDismantlingDomesticForts/AdamOsmanBurglarProofing.jpg);
   }
   
   
@@ -447,6 +447,10 @@ font-size: 2em;
         transform: scale(0.2s);
         opacity: 0.7;
 
+    }
+    .image{
+        width: 100vw;
+        height: 15vw;
     }
     .PortfolioHead{
         margin-right: 10vw;
