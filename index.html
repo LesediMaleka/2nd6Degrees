@@ -12,7 +12,8 @@
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
 
     <!-- external style sheet -->
-    <link rel="stylesheet" href="css/Landing.css">
+    <link rel="stylesheet" href="css/Style.css">
+    <link rel="stylesheet" href="css/styleSheets.css">
   
     <!-- fontawesome icon style link -->
     <link rel="stylesheet" href="assets/fontawesome/css/all.min.css">
@@ -36,125 +37,147 @@
 
 
   <div class="landingPage">
-    <!-- navbar -->
-
- 
+    <div class="mobile-Nav">
     
-    <section class="PortfolioDiv PortfolioBlock">
-      <div class="container">
-
-
-          <div class="row">
-              <div class="col-md-6 col-lg-4 PortfolioImage zoom-on-hover my-3">
-                 <a href="AboutUs.html"> 
-                <img class="img-fluid images" src="assets/Images/6 Degree Logo PNG.png" alt="place holder image">
-                <span class="PortfolioDivText">
-                    <span class="PortfolioHeading">
-                      ABOUT
-
-                    </span>                      
-                </span>
+      <div class="container mobile-only">
+          <div class="row my-3">
+            <div class="col-10 col-xl-12 MediaDiv">
+      
+      
+                  
+              <div>
+      
+                <a class="navbar-brand" href="index.html">
+                <img src="assets/Images/6 Degree Logo PNG.png" class="img-fluid mediaIcons" alt="Responsive image" width="30%">
                 </a>
               </div>
-              
-
-              <div class="col-md-6 col-lg-4 PortfolioImage zoom-on-hover my-3">
-               
-                <a href="Portfolio.html" class="lightbox">
-              <img class="img-fluid images" src="assets/Images/PortfolioLanding.jpg" alt="place holder image">
-             
-              <span class="PortfolioDivText">
-                  <span class="PortfolioHeading">
-                    PORTFOLIO
-
-                  </span>
-                 
-              </span>
-            </a>
+      
             </div>
-
-         
+  
+  <!-- hidden navigation menu on mobile -->
+            <div class="col-2 mobile-only" >
            
-
-            <div class="col-md-6 col-lg-4 PortfolioImage zoom-on-hover my-3">
-                <a href="Contact.html" class="lightbox">
-              <img class="img-fluid images" src="assets/Images/contactUsSixDeg2_768-461.jpg"alt="place holder image">
-              <span class="PortfolioDivText">
-                  <span class="PortfolioHeading">
-                   CONTACT US!
-
-                  </span>
-                 
-              </span>
-              </a>
+      
+               <i class="fas fa-bars icons mobile-only mediaIcons Bars" style="cursor:pointer" onclick="openNav()"></i>
+      
             </div>
           </div>
-
+        </div>
+      
+      
+      <div id="myNav" class="overlay container-fluid">
+        <div class="row my-3">
+          <div class="col-12">
+      
+         
+      
+              <div class="icons closebtn">
+                <i class="fas fa-times mediaIcons" onclick="closeNav()"></i>
+             </div>
+      
+      
+          </div>
+          <div class="col-12 my-5">
+            <div class="overlay-content text-center">
+              <ul>
+                <li><a href="All.html">Portfolio</a></li>
+                <li><a href="Studio.html">Studio</a></li>
+                <li><a href="Contact.html">Contact</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
       </div>
-  </section>
-
-
-
-
   </div>
-
- <!-- footer section -->
- <footer>
-
-  <!-- icons -->
-  <div class="container text-center">
-    <div class="row my-3">
-      <div class="col-12 col-xl-12 ">
-
-          <!-- media icons -->
-          <a href="#" target="_blank">
-            <div class="icons">
+      
+  <!--Desktop navbar  -->
+  <div class="Desktop">
+      <nav class="navbar navbar-expand-lg">
+          <a class="navbar-brand" href="index.html">
             
-              <i class="fab fa-facebook-f mediaIcons"></i>
-            </div>
-          </a>
+            <img src="assets/Images/6 Degree Logo PNG.png" class="img-fluid" alt="Responsive image" width="30%"></a>
+          <!--THIS IS THE LOGO THAT TAKE YOU BACK TO THE HOME PAGE-->
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+              <ul class="navbar-nav">
+  
+                <li class="nav-PortfolioImage">
+                  <a class="nav-link" href="All.html">Portfolio</a>
+              </li>
 
+                <li class="nav-PortfolioImage">
+                  <a class="nav-link" href="Studio.html">Studio</a>
+              </li>
 
-          <div class="icons">
-            <a href="#" target="_blank">
-            
-              
-              <i class="fab fa-instagram mediaIcons"></i>
-            </a>
+                  <li class="nav-item">
+                        <a class="nav-link" href="Contact.html">Contact</a>
+                  </li>
+              </ul>
           </div>
+      </nav>
+   </div>
 
-        
+    
+    
 
-        <div class="icons">
-          <a href="mailto:" target="_blank">
-            <i class="fas fa-envelope mediaIcons"></i>
-          </a>
+      <!-- landing Page social media icons -->
+      <div class="social">
+        <div class="icon">
+            <a class="media" href="https://www.instagram.com/sayarchstudio/?hl=en">
+                <i class="fab fa-instagram"></i></a>
         </div>
 
-
-        <div class="icons">
-          <a href="tel:+27" target="_blank">
-            <i class="fas fa-phone mediaIcons"></i>
+        <div class="icon">
+            <a class="media" href="#">
+                <i class="fab fa-facebook-f"></i>
             </a>
-          </div>
-
-      
-      </div>
-    
-    </div>
-
-    <div class="FooterText">
-      <p class="CopyText">Copyright © 2020 |  All rights reserved  | 
+        </div>
         
-        
-        <strong class="FullName"> <a href="PrivacyPolicy.html" target="_blank" style="color: white;"> Privacy Policy</a></strong> </p>
-    </div>
-    
+        <div class="icon">
+            <a class="media" href="mailto:info@sixdegreearchitects.com">
+                <i class="fas fa-envelope mediaIcons"></i>
+            </a>
+        </div>
+
+       <div class="icon">
+        <a class="media" href="#">
+            <i class="fas fa-phone mediaIcons"></i>
+        </a>
+       </div>
+       
+       
+
+       </div>
+
+       
   
+    <!-- landing page images -->
+    <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img class="d-block w-100 parallax" src="https://www.architecturalrecord.com/ext/resources/Issues/2016/May/1605-Architecture-Creativity-Zaha-Hadid-01.jpg?1461696438" alt="First slide">
+          
+        </div>
+        <div class="carousel-item">
+          <img class="d-block w-100 parallax" src="https://gsquared.co.za/wp-content/uploads/2019/08/GSQUARED-Exterior-3-2400x1600.jpg" alt="Second slide">
+        </div>
+        <div class="carousel-item">
+          <img class="d-block w-100 parallax" src="https://www.vpang.com/wp-content/uploads/2019/06/architecture_m1_re-4.jpg" alt="Third slide">
+        </div>
+        <div class="carousel-item">
+          <img class="d-block w-100 parallax" src="https://cifa.org.za/wp-content/uploads/2020/04/08.-Darryl-Croome_Waters-Edge-1-scaled.jpg" alt="fourth slide">
+        </div>
+        <div class="carousel-item">
+          <img class="d-block w-100 parallax" src="https://blog.edx.org/wp-content/uploads/2017/06/Untitled-design-11.png" alt="fifth slide">
+        </div>
+      </div>
+    </div>
+    
+ 
   </div>
 
-
-</footer>
 
 
 
@@ -173,3 +196,13 @@
 
 </body>
 </html>
+
+
+
+
+
+
+
+
+
+
