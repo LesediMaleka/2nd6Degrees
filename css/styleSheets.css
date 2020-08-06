@@ -196,8 +196,9 @@ h4{
     background-image:url(../assets/Images6degreesDocuments/Residential/HouseMcdonald/A.jpg);
   }
   
-  .im7{
-    background-image:url(../assets/Images6degreesDocuments/Residential/HouseChettiar/HouseChettiar.png);
+  .im7HouseChettiar{
+    background-image:url(../assets/Images6degreesDocuments/ResidentialHouseChettiarA.jpg);
+   
   }
   
   .im10{
@@ -450,7 +451,7 @@ font-size: 2em;
     }
     .image{
         width: 100vw;
-        height: 15vw;
+        height: auto;
     }
     .PortfolioHead{
         margin-right: 10vw;
@@ -547,6 +548,12 @@ font-size: 2em;
 .FormButton{
     width: 15vw;
     margin-left: 12vw;
+}
+
+/* sized image */
+.image{
+    width: 100vw;
+    height: 30vh;
 }
 
     
