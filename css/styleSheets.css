@@ -524,6 +524,8 @@ font-size: 2em;
         margin-top: 10vh !important;
     }
 
+    .LogoImage{transform: translate(0.1vw,2vh);}
+
     .navbar-nav{
         transform: translateX(600px);
       }
