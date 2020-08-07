@@ -14,7 +14,9 @@ body{
     overflow-y: hidden;
 }
 
-
+.info{
+    margin-left: -1vw;
+}
 /* Scroll bar */
 body::-webkit-scrollbar {
   width: 0.2em;
