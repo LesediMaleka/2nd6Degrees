@@ -313,14 +313,15 @@ h4{
     margin-top: -25vh;
 }
 .PortfolioHead{
-    font-size:1.2em;
+    font-size:1em;
     font-weight: 600;
     margin-top: -23vh;
-    margin-right: 37vw;
+    margin-right: 17vw;
+    text-align: justify-left;
 }
 .DescriptionPara{
-    font-size: 1.6em;
-    font-weight: bolder;  
+    font-size: 1.9em;
+    font-weight: 900 !important;  
 }
 
 .PortfolioDiv.PortfolioBlock .PortfolioImage .PortfolioDivText{
