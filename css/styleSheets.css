@@ -315,13 +315,12 @@ h4{
 .PortfolioHead{
     font-size:1.2em;
     font-weight: 600;
-    margin-top: -13vh;
-    margin-right: 35vw;
+    margin-top: -23vh;
+    margin-right: 37vw;
 }
 .DescriptionPara{
     font-size: 1.6em;
-    font-weight: 400;
-    
+    font-weight: bolder;  
 }
 
 .PortfolioDiv.PortfolioBlock .PortfolioImage .PortfolioDivText{
@@ -426,6 +425,10 @@ footer{
 margin-left: 40vw;
 font-size: 2em;
 }
+.image{
+    width: 100vw;
+    height: 40vh !important;
+}
 
    /* ---media queries */
  
@@ -441,7 +444,6 @@ font-size: 2em;
     /* Portfolio page:Lesedi */
     .PortfolioDiv.PortfolioBlock .PortfolioImage .PortfolioDivText{
         opacity: 0;
-
     }
     .PortfolioDiv.PortfolioBlock .PortfolioImage .PortfolioDivText:hover{
         opacity: 1;
@@ -451,10 +453,7 @@ font-size: 2em;
         opacity: 0.7;
 
     }
-    .image{
-        width: 100vw;
-        height: auto;
-    }
+    
     .PortfolioHead{
         margin-right: 10vw;
     }
@@ -545,6 +544,13 @@ font-size: 2em;
 .PortfolioDiv.PortfolioBlock .PortfolioImage .PortfolioDivText .PortfolioHeading{
        
     margin-top: -23vh;
+}
+.PortfolioHead{
+    margin-top: -14vh;
+}
+.image{
+    width: 100vw;
+    height: 30vh !important;
 }
   /* Contact Page :Lesedi */
 .FormButton{
