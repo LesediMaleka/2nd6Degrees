@@ -37,11 +37,11 @@ outline: 1px solid rgb(7, 7, 7);
     color: black;
 }
 a{
-    color: rgb(0, 0, 0);
+    color: gray;
 }
 
 a:hover{
-    color: rgb(128, 128, 128);
+    color: #000;
 }
 
 /* paragraph text for all the pages and sections */
@@ -245,7 +245,7 @@ h4{
 
 /*Desktop navbar */
 .navbar-expand-lg{
-    color: black;
+    color: gray !important;
     font-size: 1.5em;
 }
 /*  general classes*/
@@ -384,7 +384,7 @@ h4{
 
  .icons{
     display: inline-block;
-    font-size: 1.5em;
+    font-size: 1.3em;
     border-radius: 50%;
     height: 40px;
     width: 40px;
@@ -394,7 +394,7 @@ h4{
 }
  .CopyText{
     text-align: center;
-    font-size: 18px;
+    font-size: 16px;
 }
 .FullName{
     color:#070706;
@@ -518,7 +518,7 @@ font-size: 2em;
     }
     .Desktop{
         display: block;
-        color: black;
+        color: gray;
         }  
     .DesktopOnly{
         display: block;  
@@ -584,7 +584,8 @@ font-size: 2em;
     margin-top: 5vh !important;
 }
 .blockDiv{
-    margin-top: -5vh !important;
+    margin-top: -7vh !important;
+   
 }
 /* .ClientDiv{
     margin-top: 20vh !important;
