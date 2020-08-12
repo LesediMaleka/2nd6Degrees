@@ -401,8 +401,8 @@ h4{
 .FullName{
     color:#000;
 }
-.FullName:hover{
-    color:gray !important;
+.FullName:hover,a:hover{
+    color:gray;
 }
 
 
@@ -528,7 +528,7 @@ font-size: 2em;
         text-transform: lowercase;
         } 
         .nav-link{
-            color: gray !important;   
+            color: gray;   
         } 
         .nav-link:hover{
             color: #000 !important;
@@ -551,7 +551,6 @@ font-size: 2em;
         text-transform: lowercase;
         font-weight: 300;
         font-size: 0.8em;
-        opacity: 0.6;
         color: gray;
       }
 /* Landing page */
