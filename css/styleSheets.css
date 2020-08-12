@@ -259,7 +259,7 @@ h4{
     display: grid;
     position: absolute;
     left:0;
-    color: #000;
+    color: rgb(44, 43, 43);
     bottom:0;
     padding: 10px;
     font-size: 17px;
@@ -428,9 +428,10 @@ font-size: 2em;
         opacity: 0.7;
 
     }
+    
 
     .image:hover{
-        color: gray;
+        background-color: gray;
         opacity: 1;
     }
     
