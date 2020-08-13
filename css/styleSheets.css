@@ -501,6 +501,10 @@ font-size: 2em;
         color: gray !important;
         text-transform: lowercase;
         } 
+        .IntialNavbar{
+            background-color: white;
+            height: 20vh;
+        }
         .nav-link{
             color: gray;   
         } 
@@ -514,7 +518,7 @@ font-size: 2em;
         margin-top: 10vh !important;
     }
 
-    .LogoImage{transform: translate(0.1vw,2vh);}
+    .LogoImage{transform: translate(0.6vw,2vh);}
 
     .navbar-nav{
         transform: translateX(600px);
@@ -540,14 +544,19 @@ font-size: 2em;
     margin-right: 20vw !important;
     text-align: center;
 }
-.image{
+/* .image{
     width: 100vw;
    
-}
+} */
   /* Contact Page :Lesedi */
 .FormButton{
     width: 15vw;
     margin-left: 12vw;
+}
+
+/* Studio page.Adam section */
+.AdamText{
+    margin-left: -7vw;
 }
 
 
@@ -581,12 +590,17 @@ font-size: 2em;
 
 
 /* IndividualProject Portfolio Page :Pamela */
-.heroImage{
+/* .heroImage{
     margin-top: -12.3%;
     /* width: 90%;
-    height: 76vh; */
-    /* margin-bottom: 80vh; */
-}
+    height: 76vh; 
+    margin-bottom: 80vh;  
+} */
+
+/* .heroImage{
+    margin-top: -12.3%;
+} */
+
 .div{
 margin-top: 5%;
 width: 90%;
