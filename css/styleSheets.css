@@ -3,6 +3,7 @@ html{
     padding: 0;
     max-width: 100vw;
     overflow-x: hidden;
+    scroll-behavior: smooth;
 }
 body{
     /* background-color: bisque; */
@@ -485,6 +486,8 @@ font-size: 2em;
         color: gray !important;
         text-transform: lowercase;
         } 
+
+
         .IntialNavbar{
             background-color: white;
             height: 20vh;
@@ -527,7 +530,20 @@ font-size: 2em;
     margin-right: 20vw !important;
     text-align: center;
 }
-/* .image{
+
+.PortIcons{
+    font-size: 1.4em;
+    padding: 30px;
+}
+.PortfolioIcons{
+    text-align: right;
+    margin-top: -7vh;
+}
+#PortImage{
+    width: 60vw !important;
+    margin-left: 20vw;
+}
+/* .image{em
     width: 100vw;
    
 } */
@@ -581,7 +597,8 @@ font-size: 2em;
 } */
 
 /* .heroImage{
-    margin-top: -12.3%;
+   width: 80vw;
+   margin-right: 385vw;
 } */
 
 .div{
