@@ -279,13 +279,14 @@ h4{
     font-size: 1.5em;
     font-weight: 600;
     margin-top: -25vh;
+    
 }
 .PortfolioHead{
     font-size:1em;
     font-weight: 600;
-    margin-top: -23vh;
-    margin-right: 17vw;
-    text-align: start;
+    margin-top: -25vh;
+    margin-left: 5vw;
+    text-align: left;
 }
 .DescriptionPara{
     font-size: 1.9em;
@@ -415,7 +416,10 @@ font-size: 2em;
         transform: scale(0.2s);
         opacity: 0.2;
         color: gray;
+    }
 
+    .PortfolioHead{
+        margin-left: 1vw;
     }
     
 
@@ -531,8 +535,8 @@ font-size: 2em;
 }
 .PortfolioHead{
     margin-top: -27vh;
-    margin-right: 20vw !important;
-    text-align: center;
+    /* margin-right: -80vw !important; */
+    text-align: left;
 }
 
 .PortIcons{
