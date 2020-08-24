@@ -55,6 +55,10 @@ p{
     margin: 20px;
 }
 
+.responsive{
+    width: 100%;
+    height: auto;
+}
 
 h4{
     font-size: 18px;
