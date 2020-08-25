@@ -187,7 +187,7 @@ h4{
 
 
   hr{
-    border: 2px solid black;
+    border: 1.2px solid black;
   }
   
   .projectName{
@@ -557,14 +557,15 @@ font-size: 2em;
 .PortIcons{
     font-size: 1.4em;
     padding: 30px;
+    margin-top: -4vh;
 }
 .PortfolioIcons{
     text-align: right;
-    margin-top: -7vh;
+    margin-top: -4vh;
 }
 #PortImage{
-    width: 60vw !important;
-    margin-left: 20vw;
+    width: 96vw !important;
+    margin-left: 2vw;
 }
 /* .image{em
     width: 100vw;
@@ -596,6 +597,9 @@ font-size: 2em;
 }
 .FooterResearch{
     margin-top: 15vh;
+}
+.heroImage{
+height: 72vh;
 }
 
 
