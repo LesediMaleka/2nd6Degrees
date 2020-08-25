@@ -50,7 +50,7 @@ p{
     font-size: 14px;
     font-weight: 250;
     line-height: 18px;
-    text-align: justify;
+    text-align: left;
     text-size-adjust: 2px;
     margin: 20px;
 }
@@ -531,7 +531,7 @@ font-size: 2em;
     .LogoImage{transform: translate(-0.2vw,2vh);}
 
     .navbar-nav{
-        transform: translateX(620px);
+        transform: translateX(616px);
         
       }
       .SecondNav{
@@ -585,7 +585,16 @@ font-size: 2em;
 }
 
 /* Studio footer section */
+.ContactFooter{
+    margin-top: 14vh;
+}
 .StudioFooter{
+    margin-top: 16vh;
+}
+.FooterResidential{
+    margin-top: 15vh;
+}
+.FooterResearch{
     margin-top: 15vh;
 }
 
