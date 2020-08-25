@@ -50,7 +50,7 @@ p{
     font-size: 14px;
     font-weight: 250;
     line-height: 18px;
-    text-align: left;
+    text-align: justify;
     text-size-adjust: 2px;
     margin: 20px;
 }
@@ -184,11 +184,7 @@ h4{
     background-repeat: no-repeat;
     background-size: cover;
   }
-  
-  .im7HouseChettiar{
-    background-image:url(../assets/Images6degreesDocuments/ResidentialHouseChettiarA.jpg);
-   
-  }
+
 
   hr{
     border: 2px solid black;
@@ -527,10 +523,10 @@ font-size: 2em;
         margin-top: 10vh !important;
     }
 
-    .LogoImage{transform: translate(0.6vw,2vh);}
+    .LogoImage{transform: translate(-0.2vw,2vh);}
 
     .navbar-nav{
-        transform: translateX(600px);
+        transform: translateX(620px);
         
       }
       .SecondNav{
