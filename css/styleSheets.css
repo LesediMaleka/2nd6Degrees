@@ -575,6 +575,9 @@ font-size: 2em;
 .AdamText{
     margin-left: -7vw;
 }
+.StudioBioText{
+    margin-left: -1vw; 
+}
 
 /* Studio footer section */
 .StudioFooter{
