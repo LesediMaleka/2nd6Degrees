@@ -187,7 +187,7 @@ h4{
 
 
   hr{
-    border: 1.2px solid black;
+    border: 0.2px solid black;
   }
   
   .projectName{
@@ -509,6 +509,7 @@ font-size: 2em;
         .IntialNavbar{
             background-color: white;
             height: 20vh;
+            margin-left: -2vh;
         }
         .nav-link{
             color: gray;   
@@ -528,7 +529,12 @@ font-size: 2em;
         margin-top: 10vh !important;
     }
 
-    .LogoImage{transform: translate(-0.2vw,2vh);}
+    .LogoImage{
+        transform: translate(-0.2vw,2vh);
+    }
+    .IntialNavbarLogoImage{
+        transform: translate(2vw,2vh);
+    }
 
     .navbar-nav{
         transform: translateX(616px);
