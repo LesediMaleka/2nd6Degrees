@@ -526,7 +526,7 @@ font-size: 2em;
         
     }
     .block{
-        margin-top: 10vh !important;
+        margin-bottom: -5vh !important;
     }
 
     .LogoImage{
@@ -541,7 +541,7 @@ font-size: 2em;
         
       }
       .SecondNav{
-        transform: translate(560px,-50px);
+        transform: translate(550px,-80px);
         text-transform: lowercase;
         font-weight: 300;
         font-size: 0.8em;
@@ -598,6 +598,10 @@ font-size: 2em;
 .StudioFooter{
     margin-top: 18vh;
 }
+
+.StudioHeading{
+   margin-left: -1vw;
+}
 .FooterResidential{
     margin-top: 15vh;
 }
@@ -627,7 +631,7 @@ height: 72vh;
     margin-top: 5vh !important;
 }
 .blockDiv{
-    margin-top: -7vh !important;
+    margin-top: -17vh !important;
    
 }
 /* .ClientDiv{
