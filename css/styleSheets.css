@@ -577,7 +577,7 @@ font-size: 2em;
         
     }
     .block{
-        margin-bottom: -5vh !important;
+        margin-bottom: 5vh !important;
     }
 
     .LogoImage{
@@ -614,11 +614,12 @@ font-size: 2em;
 .PortIcons{
     font-size: 1.4em;
     padding: 30px;
-    margin-top: -4vh;
+   display: block;
+   font-weight: 400;
 }
 .PortfolioIcons{
     text-align: right;
-    margin-top: -4vh;
+    margin-top: -2.9vh;
 }
 #PortImage{
     width: 96vw !important;
@@ -645,10 +646,10 @@ font-size: 2em;
 
 /* Studio footer section */
 .ContactFooter{
-    margin-top: 14vh;
+    margin-top: 9vh;
 }
 .StudioFooter{
-    margin-top: 18vh;
+    margin-top: 14vh;
 }
 
 .StudioHeading{
