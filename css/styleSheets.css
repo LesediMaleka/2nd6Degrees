@@ -65,6 +65,9 @@ body{
     overflow-x: hidden; 
     overflow-y: hidden;
 }
+strong{
+    font-weight: 600;
+}
 
 .info{
     margin-left: -1vw;
@@ -280,6 +283,18 @@ h4{
     
 }
 .block{
+    margin-top: 6vh !important;
+}
+
+/* Studio page */
+
+.StudioBlock{
+    margin-top: 6vh !important;
+}
+
+/* contact page */
+
+.ContactBlock{
     margin-top: 6vh !important;
 }
 /* Portfolio Page */
@@ -643,7 +658,15 @@ font-size: 2em;
     /* margin-left: -1vw;  */
     transform: translate(1vw,2vh);
 }
+/* studio page */
+.StudioBlock{
+    margin-top: -7vh !important;
+}
 
+/* contact page */
+.ContactBlock{
+    margin-top: -7vh !important;
+}
 /* Studio footer section */
 .ContactFooter{
     margin-top: 9vh;
