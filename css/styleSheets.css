@@ -210,6 +210,7 @@ h4{
 .parallax {
     /* Full height */
     height: 100%; 
+    /* height: auto; */
   
     /* Create the parallax scrolling effect */
     background-position: center;
