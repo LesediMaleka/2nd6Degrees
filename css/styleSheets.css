@@ -720,7 +720,9 @@ font-size: 2em;
 }
 .heroImage{
 height: 72vh;
-}
+
+    margin-bottom: 20vh;
+  }
 
 
 
