@@ -609,11 +609,12 @@ font-size: 2em;
         
       }
       .SecondNav{
-        transform: translate(550px,-80px);
+        transform: translate(545px,-80px);
         text-transform: lowercase;
         font-weight: 300;
         font-size: 0.8em;
         color: gray;
+        margin-bottom: 6vh;
       }
 /* Landing page */
 
@@ -637,6 +638,9 @@ font-size: 2em;
 .PortfolioIcons{
     text-align: right;
     margin-top: -2.9vh;
+}
+.PortfolioDiv{
+    padding: 20px;
 }
 #PortImage{
     width: 96vw !important;
