@@ -206,11 +206,21 @@ h4{
     color: black;
 }
 
+.parallaxIndex{
+    /* Full height */
+    height: 100%; 
+    
+  
+    /* Create the parallax scrolling effect */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
 
 .parallax {
     /* Full height */
-    height: 100%; 
-    /* height: auto; */
+    height: 65%; 
+    
   
     /* Create the parallax scrolling effect */
     background-position: center;
@@ -645,7 +655,20 @@ font-size: 2em;
 #PortImage{
     width: 96vw !important;
     margin-left: 2vw;
+    height: 95%;
 }
+
+.parallax {
+    /* Full height */
+    height: 100%; 
+}
+.parallaxIndex  {
+    /* Full height */
+    height: 100%; 
+}
+
+
+
 /* .image{em
     width: 100vw;
    
