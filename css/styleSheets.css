@@ -775,6 +775,12 @@ padding: 20vh;
         color: hotpink;
     }
      
+    /* Thumbnail section */
+    .ThumbnailIcon{
+        margin-left: 94.5vw;
+        margin-top: 10vh;
+        font-weight: 100 !important;
+    }
  
    }
   
