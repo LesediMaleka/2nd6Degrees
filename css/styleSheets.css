@@ -248,6 +248,7 @@ h4{
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    margin-bottom: -20vh;
   }
 
 
@@ -377,6 +378,9 @@ h4{
 
 .PortfolioDiv.PortfolioBlock .PortfolioImage .PortfolioDivText{
     margin-top: 10px;
+}
+#InteractingWithCulture{
+    margin-bottom: -10vh !important;
 }
 /*contact section/page */
 .FormButton{
@@ -660,7 +664,7 @@ font-size: 2em;
 
 .parallax {
     /* Full height */
-    height: 100%; 
+    height: auto; 
 }
 .parallaxIndex  {
     /* Full height */
@@ -747,23 +751,7 @@ height: 72vh;
     overflow-y: auto;
 }
 
-/* .PImage{
-    margin-left: 20vw;
-} */
 
-
-/* IndividualProject Portfolio Page :Pamela */
-/* .heroImage{
-    margin-top: -12.3%;
-    /* width: 90%;
-    height: 76vh; 
-    margin-bottom: 80vh;  
-} */
-
-/* .heroImage{
-   width: 80vw;
-   margin-right: 385vw;
-} */
 
 .div{
 margin-top: 5%;
@@ -804,8 +792,9 @@ padding: 20vh;
      
     /* Thumbnail section */
     .ThumbnailIcon{
-        margin-left: 94.5vw;
-        margin-top: 10vh;
+        margin-left: 92vw;
+        margin-top: 15vh;
+        margin-bottom: 2vh;
         font-weight: 100 !important;
     }
  
