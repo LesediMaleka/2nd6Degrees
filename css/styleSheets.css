@@ -219,7 +219,7 @@ h4{
 
 .parallax {
     /* Full height */
-    height: 75%; 
+    height: 50vh; 
     
   
     /* Create the parallax scrolling effect */
@@ -227,6 +227,9 @@ h4{
     background-repeat: no-repeat;
     background-size: cover;
   }
+  .blockDivs{
+    margin-top: -40vh !important;
+}
 
   .social{
       z-index: 2;
@@ -671,6 +674,7 @@ font-size: 2em;
 }
 .blockDivs{
     padding-top: 30vh !important;
+    margin-top: 5vh !important;
 }
 
 
