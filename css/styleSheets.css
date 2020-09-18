@@ -379,9 +379,7 @@ h4{
 .PortfolioDiv.PortfolioBlock .PortfolioImage .PortfolioDivText{
     margin-top: 10px;
 }
-#InteractingWithCulture{
-    margin-bottom: -10vh !important;
-}
+
 /*contact section/page */
 .FormButton{
     color: white;
@@ -648,10 +646,11 @@ font-size: 2em;
     padding: 30px;
    display: block;
    font-weight: 400;
+   margin-top: -1.5vh;
 }
 .PortfolioIcons{
     text-align: right;
-    margin-top: -2.9vh;
+    margin-top: -5.5vh;
 }
 .PortfolioDiv{
     padding: 20px;
@@ -659,16 +658,19 @@ font-size: 2em;
 #PortImage{
     width: 96vw !important;
     margin-left: 2vw;
-    height: 95%;
+    /* height: 95%; */
 }
 
 .parallax {
     /* Full height */
-    height: auto; 
+    height: 100vh; 
 }
 .parallaxIndex  {
     /* Full height */
     height: 100%; 
+}
+.blockDivs{
+    padding-top: 30vh !important;
 }
 
 
